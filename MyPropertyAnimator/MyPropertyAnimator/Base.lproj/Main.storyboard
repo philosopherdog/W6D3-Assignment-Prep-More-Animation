@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyPropertyAnimator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWK-On-mWN" userLabel="FishView">
+                                <rect key="frame" x="153.5" y="304" width="68" height="59"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish" translatesAutoresizingMaskIntoConstraints="NO" id="cIx-Q2-EFY">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="59"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="IhZ-dx-eS0"/>
+                                    <constraint firstAttribute="width" constant="68" id="JdX-P0-OcQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="cIx-Q2-EFY" secondAttribute="bottom" id="Nk1-mz-0ML"/>
+                                    <constraint firstItem="cIx-Q2-EFY" firstAttribute="leading" secondItem="TWK-On-mWN" secondAttribute="leading" id="RUu-dZ-xFo"/>
+                                    <constraint firstItem="cIx-Q2-EFY" firstAttribute="top" secondItem="TWK-On-mWN" secondAttribute="top" id="cEm-nD-lTT"/>
+                                    <constraint firstAttribute="trailing" secondItem="cIx-Q2-EFY" secondAttribute="trailing" id="nZh-Fb-nC8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55294117649999996" green="0.74901960779999999" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="TWK-On-mWN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" placeholder="YES" id="NlF-qo-mCG"/>
+                            <constraint firstItem="TWK-On-mWN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" placeholder="YES" id="qqy-PY-sTy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fish" destination="TWK-On-mWN" id="PiX-UC-bCO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fish" width="960" height="719"/>
+    </resources>
+</document>

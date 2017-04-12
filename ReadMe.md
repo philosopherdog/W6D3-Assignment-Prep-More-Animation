@@ -1,5 +1,7 @@
 ### UIActivityViewController, Xibs, Custom UIButton, UIPropertyAnimator, CALayer, CAAnimation
 
+[Get all files here](https://github.com/philosopherdog/W6D3-Assignment-Prep-More-Animation)
+
 Today I went over a bunch of things related to the assignment today. I live coded a project found in W6D3 folder that demonstrates the following:
 
 1. how to load a view from a Xib file.
@@ -24,3 +26,5 @@ Please see the code in the folder `MyPropertyAnimator`.
 I also spoke a bit about how to make network requests in Swift and how to parse JSON and did some live coding for a couple of students. Please find the code in `URLSession_JSON_Swift.playground`.
 
 Finally, for those interested I have included the slides for core animation and a playground that shows a few animations. See the playground in folder:  `W6D3-CoreAnimation-playground`, and the pdf called `W6D3 - Core Animation`.
+
+[Get all files here](https://github.com/philosopherdog/W6D3-Assignment-Prep-More-Animation)
